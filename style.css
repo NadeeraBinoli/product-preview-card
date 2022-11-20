@@ -2,16 +2,20 @@ body{
 background-color: hsl(30, 38%, 92%);
 font-family:sans-serif;
 font-size: 14px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
 }
 h1{
 color: hsl(212, 21%, 14%);
 font-weight: 700;
 font-size: 2rem;
+font-family: 'Fraunces', serif;
 }
 h2{
 color:hsl(158, 36%, 37%) ;
 font-weight: 700;
 font-size: 2rem;
+font-family: 'Fraunces', serif;
 }
 p{
 color: hsl(228, 12%, 40%);
@@ -40,6 +44,10 @@ cursor: pointer;
 }
 .cart-icon{
 margin:0 1rem 0 0;
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 .price{
   display: flex;
