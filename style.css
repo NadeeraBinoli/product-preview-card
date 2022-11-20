@@ -69,4 +69,36 @@ a{
 font-size: 11px; 
 text-align: center; }
 .attribution a { 
-color: hsl(228, 45%, 44%); }
+color: hsl(228, 45%, 44%); }color: hsl(228, 45%, 44%); }
+@media screen and (min-width:1140px) {
+.card{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 5rem;
+}
+.product-image-desktop{
+  display: block;
+  width: 100%;
+  border-radius: .8rem 0 0 .8rem ;
+}
+article{
+  width: 50%;
+  padding: 2rem ;
+}
+.product-image-mobile{
+  display: none;
+}
+body{
+  font-size:20px;
+}
+h1{
+  font-size:4rem ;
+}
+h2{
+  font-size:4rem ;
+}
+.cutted-number{
+  padding-top: 4rem;
+}
+}
