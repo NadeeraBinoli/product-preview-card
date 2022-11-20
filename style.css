@@ -52,6 +52,10 @@ a{
 .price p {
   margin-top: 1rem;
 }
+.cutted-number{
+  padding-top: 1rem;
+  text-decoration: line-through;
+}
 .attribution {
 font-size: 11px; 
 text-align: center; }
