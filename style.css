@@ -41,9 +41,6 @@ cursor: pointer;
 .cart-icon{
 margin:0 1rem 0 0;
 }
-a{
-  
-}
 .price{
   display: flex;
   flex-direction: row;
