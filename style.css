@@ -69,7 +69,9 @@ a{
 font-size: 11px; 
 text-align: center; }
 .attribution a { 
-color: hsl(228, 45%, 44%); }color: hsl(228, 45%, 44%); }
+color: hsl(228, 45%, 44%); }
+
+/* Desktop size */
 @media screen and (min-width:1140px) {
 .card{
   display: flex;
