@@ -29,10 +29,14 @@ border-radius: .8rem;
 article{
   padding: 0 1rem 1rem 1rem ;
 }
-.product-image{
+.product-image-mobile{
+display: block;
 width: 100%;
 border-radius: .8rem .8rem 0 0;
 }
+.product-image-desktop{
+  display: none;
+  }
 button{
 background-color:hsl(158, 36%, 37%) ;
 width: 100%;
